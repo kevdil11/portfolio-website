@@ -51,7 +51,7 @@ color: #994c30;
 
 
 
-.button {
+.button, .button:visited {
   display: inline-block;
   background-color: #91F3FC;
   color: #2F8189;
