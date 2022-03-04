@@ -2,7 +2,7 @@
 body {
   background-color: #E9FDFF;
   font-family: 'Asap', sans-serif;
-  font-size: 16px; /* sets the font size to 40px */
+  font-size: 30px; /* sets the font size to 40px */
   font-size: weight: 400; /* sets the font weight to 400 regular */
   line-height: 1.6; /* sets the line height to 1.6 *the font size */
   color: #2F8189;
@@ -13,22 +13,22 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 80px
+  font-size: 80px;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 80px
+  font-size: 80px;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 60px
+  font-size: 60px;
   font-weight: 700;
 }
 
 img {
-  width: 50%
+  width: 100%
 }
 
 a {
@@ -46,7 +46,7 @@ a:hover {
 }
 
 a:active { /* selected link*/
-color: #994c30
+color: #994c30;
 }
 
 
