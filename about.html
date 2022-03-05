@@ -19,9 +19,14 @@
 
 <body>
 
+
+	<div>
    <header>
-    <span>Kevin Diletzoy UI Designer</span>
-       <img src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name" >
+
+
+			<div class="center">
+       <img class="logo" src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name" >
+			</div>
       <div>
         <nav>
           <ul>
@@ -31,12 +36,15 @@
           </ul>
         </nav>
       </div>
+		</div>
   </header>
 
 
   <main>
 
-    <div>
+<div id="content">
+	<div class="container">
+    <div id="hero">
       <div>
         <h1>About Me</h1>
       </div>
@@ -52,7 +60,7 @@
 
       <div>
 	      <h2>Where I am Based</h2>
-          <div>
+          <div class="row">
               <div>
                 <picture>
                 <source srcset="img/aboutpage/edmonton_image_small.png" media="(max-width:767px)">
@@ -71,26 +79,28 @@
 
       <div>
 	      <h2>Spending my<br>Free time</h2>
-          <div>
-              <div>
-                <picture>
-                <source srcset="img/aboutpage/freetime_small.png" media="(max-width:767px)">
-                <img src="img/aboutpage/freetime_large.png" alt="Freetime Image">
-                </picture>
-              </div>
+          <div class="row">
 
               <div>
                 <h3>Just Kicking it Back</h3>
                 <p>I spend my free time working on anything artistic with my hands, whether that be paper crafts, sculpting, plastic model building, or anything else that strikes my interest. I like to relax with a good movie or a fun video game.
                 </p>
               </div>
+
+							<div>
+								<picture>
+								<source srcset="img/aboutpage/freetime_small.png" media="(max-width:767px)">
+								<img src="img/aboutpage/freetime_large.png" alt="Freetime Image">
+								</picture>
+							</div>
+
           </div>
       <div/>
 
 
       <div>
 	      <h2>My Personal<br>Experience</h2>
-          <div>
+          <div class="row">
               <div>
                 <picture>
                 <source srcset="img/aboutpage/experience_small.png" media="(max-width:767px)">
@@ -112,20 +122,21 @@ I wanted to expand my experience into other design fields, so I looked into prof
 
       <div>
 	      <h2>Frontend<br>Relevance</h2>
-          <div>
-              <div>
-                <picture>
-                <source srcset="img/aboutpage/frontend_small.png" media="(max-width:767px)">
-                <img src="img/aboutpage/frontend_large.png" alt="Freetime Image">
-                </picture>
-              </div>
+          <div class="row">
 
               <div>
                 <h3>Why do you think having<br>frontend skills is<br>valuable for a designer?</h3>
                 <p>I have always been an advocate for understanding more about the complex interreacting components that goes into a well designed system. To be a great designer, it's essential to understand the other design disciplines that directly interact with the components that I will be heavily involved with. With frontend skills, I can produce UI designs that will better suit the tasks that frontend developers have to implement into the product and reduce time and frustrations in the overall design experience. I always think that team work is essential in order to streamline the design process of a product, so the more I know about the process of other design disciplines helps me be a better team player for others!
                 </p>
-
               </div>
+
+							<div>
+								<picture>
+								<source srcset="img/aboutpage/frontend_small.png" media="(max-width:767px)">
+								<img src="img/aboutpage/frontend_large.png" alt="Freetime Image">
+								</picture>
+							</div>
+
           </div>
       <div/>
 
@@ -133,33 +144,34 @@ I wanted to expand my experience into other design fields, so I looked into prof
       <div>
 	      <h2 id="skills">Skills<br>and Tools</h2>
           <div>
+							<div clas="row">
+              	<div>
+                	<h3>Relevant Skills</h3>
+                  	<ul>
+                    	<li>UX/UI Desing</li>
+                    	<li>Logo Design</li>
+                    	<li>Iconography</li>
+                    	<li>Wireframing</li>
+                    	<li>Prototyping</li>
+                    	<li>Persona development</li>
+                    	<li>Conducting Interviews</li>
+                    	<li>User Research</li>
+                  	</ul>
+              	</div>
 
-              <div>
-                <h3>Relevant Skills</h3>
-                  <ul>
-                    <li>UX/UI Desing</li>
-                    <li>Logo Design</li>
-                    <li>Iconography</li>
-                    <li>Wireframing</li>
-                    <li>Prototyping</li>
-                    <li>Persona development</li>
-                    <li>Conducting Interviews</li>
-                    <li>User Research</li>
-                  </ul>
-              </div>
 
+              	<div>
+                	<h3>Tools I Use</h3>
 
-              <div>
-                <h3>Tools I Use</h3>
+                  	<ul>
+                    	<li>Adobe XD</li>
+                    	<li>Figma</li>
+                    	<li>Marvelapp</li>
+                    	<li>Clip Studio</li>
+                  	</ul>
 
-                  <ul>
-                    <li>Adobe XD</li>
-                    <li>Figma</li>
-                    <li>Marvelapp</li>
-                    <li>Clip Studio</li>
-                  </ul>
-
-              </div>
+              	</div>
+							</div>
 
               <div>
                 <a href="kevin_d_resume.pdf" download>Download Resume</a>
@@ -169,13 +181,15 @@ I wanted to expand my experience into other design fields, so I looked into prof
           </div>
 
     </div>
+	</div>
+	</div>
 
   </main>
 
 
 	<footer id="contact">
 
-		<div>
+		<div class="container">
       <h2>Get in Touch</h2>
       <div>
         <a href="mailto:kev.dil125@gmail.com" class="button contact">Email me

@@ -1,8 +1,7 @@
-
 body {
   background-color: #E9FDFF;
   font-family: 'Asap', sans-serif;
-  font-size: 30px; /* sets the font size to 40px */
+  font-size: 16px; /* sets the font size to 40px */
   font-size: weight: 400; /* sets the font weight to 400 regular */
   line-height: 1.6; /* sets the line height to 1.6 *the font size */
   color: #2F8189;
@@ -13,17 +12,22 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 35px;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 35px;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 60px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -47,6 +51,19 @@ a:hover {
 
 a:active { /* selected link*/
 color: #994c30;
+}
+
+
+
+.logotextbig {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logotextsmall
+{
+  font-size: 15px;
+  font-weight: 500;
 }
 
 
@@ -80,6 +97,66 @@ color: #994c30;
 }
 
 
+
+/* Layout styling */
+
+
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+.center {
+  text-align: center; /* to center, use class="center" */
+}
+
+.logo {
+  max-width: 250px;
+}
+
+
+main {
+  padding-top: 133px;
+}
+
+
+header {
+  background-color: #E9FDFF;
+  text-align: center;
+  padding: 10px 0;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow:    0px 4px 5px 0px rgba(50, 50, 50, 0.4);
+  box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.4);
+  position: fixed;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+#hero {
+  background-color: #E9FDFF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
 
 
 /*
