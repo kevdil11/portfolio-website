@@ -2,10 +2,19 @@ body {
   background-color: #E9FDFF;
   font-family: 'Asap', sans-serif;
   font-size: 16px; /* sets the font size to 40px */
-  font-size: weight: 400; /* sets the font weight to 400 regular */
+  font-weight: 400; /* sets the font weight to 400 regular */
   line-height: 1.6; /* sets the line height to 1.6 *the font size */
   color: #2F8189;
 }
+
+
+
+
+.white-background {
+  background-color: : #FFFFFF;
+}
+
+
 
 h1, h2, h3, h4 {
   line-height: 1.4
