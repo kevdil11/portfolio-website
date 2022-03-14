@@ -111,6 +111,23 @@ color: #994c30;
 }
 
 
+/*might not be needed, button functions are used in other tags*/
+.button {
+  display: inline-block;
+  background-color: #91F3FC;
+  color: #2F8189;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #91F3FC;
+  transition: 0.2s;
+  transition-proprety: opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
 
 
 
@@ -217,7 +234,7 @@ Medium devices (640px and larger)
   }
 
   body {
-    font-size: 14px;
+    font-size: 16px;
 
     }
 
@@ -275,7 +292,7 @@ Large devices (1024px or larger)
   }
 
   body {
-    font-size: 14px;
+    font-size: 16px;
 
     }
 
