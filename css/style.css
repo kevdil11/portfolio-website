@@ -265,8 +265,8 @@ Medium devices (640px and larger)
       margin-right: auto;
     }
 
-
 }
+
 
 
 
@@ -316,11 +316,6 @@ Large devices (1024px or larger)
       display: table;
     }
 
-
-
-
-
-
 }
 
 
@@ -329,6 +324,66 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 }
+
+
+
+
+
+
+
+
+/* ==============================
+animations
+================================= */
+
+
+
+.mountains {
+  width: 100%;
+max-width: 100%;
+height: auto;
+}
+
+
+
+.sun{
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+
+.cloud{
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+
+.car{
+  animation: 30s car-move infinite alternate linear;
+}
+
+
+  @keyframes color-change {
+    from {fill: #FF6584;}
+    to {fill: #F9F345;}
+  }
+
+
+
+  @keyframes cloud-move {
+    from {transform: translate(-156.824px,-204.184px);}
+    to {transform: translate(-200px,-204.184px);}
+  }
+
+
+
+  @keyframes car-move {
+    from {transform: translate(-156.824px,-204.184px);}
+    to {transform: translate(-650px,-204.184px);}
+  }
+
 
 
 
