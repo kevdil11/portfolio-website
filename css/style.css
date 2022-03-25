@@ -37,6 +37,7 @@ h2 {
 h3 {
   font-size: 25px;
   font-weight: 700;
+  margin-top: 0px;
 }
 
 h4 {
@@ -152,7 +153,8 @@ color: #994c30;
 
 
 .row {
-  margin: 25px 0;
+  margin: 25px 0px;
+
 }
 
 .center {
@@ -197,7 +199,6 @@ nav > ul > li > a {
 }
 
 #hero {
-  background-color: #E9FDFF;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -210,7 +211,23 @@ nav > ul > li > a {
   border-radius: 4px;
 }
 
+#socialmediaicon a {
+   width: 33.33%;
+   text-align: center;
+}
 
+#socialmediaicon a  span {
+   display: none;
+}
+
+#socialmediaicon a  svg {
+   height: 30px;
+   width: 30px;
+}
+
+#svg {
+  width: 100%;
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -263,6 +280,18 @@ Medium devices (640px and larger)
       max-width: 1200px;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .row {
+      margin: 25px -20px;
+
+    }
+    #socialmedicon a  span {
+       display: initial;
+    }
+
+    #socialmedicon a  svg {
+       display: none;
     }
 
 }
@@ -380,8 +409,8 @@ height: auto;
 
 
   @keyframes car-move {
-    from {transform: translate(-156.824px,-204.184px);}
-    to {transform: translate(-650px,-204.184px);}
+    from {transform: translate(-156.824px,-115px);}
+    to {transform: translate(-650px,-115px);}
   }
 
 
