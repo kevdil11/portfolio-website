@@ -132,7 +132,9 @@ color: #994c30;
 
 
 
-/* Layout styling */
+/* ==============================
+Layout Styling
+================================= */
 
 
 
@@ -162,7 +164,7 @@ color: #994c30;
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 
@@ -173,23 +175,34 @@ main {
 
 header {
   background-color: #FFFFFF;
-  text-align: center;
+/*  text-align: center; */   /*remove 'comment indicators' if this is needed again*/
   padding: 10px 0;
   -webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.4);
   -moz-box-shadow:    0px 4px 5px 0px rgba(50, 50, 50, 0.4);
   box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.4);
   position: fixed;
   width: 100%;
+
+  .navtoggle, .navtoggle.responsive {  /*lesson is confusing for this part. does this code go here?*/
+    position: relative;
+  }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right:0;
+  }
+
 }
 
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -229,8 +242,25 @@ nav > ul > li > a {
   width: 100%;
 }
 
+
 /* ==============================
-Medium devices (640px and larger)
+for hamburg menu icon
+================================= */
+
+#menuicon {
+   height: 20px;
+   width: 20px;
+}
+
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+
+
+/* ==============================
+Medium devices (641px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
 
@@ -294,6 +324,24 @@ Medium devices (640px and larger)
        display: none;
     }
 
+    nav > ul > li {
+      display: inline-block;
+    }
+
+    /* Large devices (641px and larger)/ hamburg menu icon toggle */
+
+    .navtoggle li:not(:last-child) {
+      display: inline-block;
+    }
+
+    .navtoggle li:last-child {
+      display: none;
+    }
+
+    nav > ul {
+      margin: 1em 0;
+    }
+
 }
 
 
@@ -343,6 +391,24 @@ Large devices (1024px or larger)
       content: "";
       clear: both;
       display: table;
+    }
+
+    nav > ul > li {
+      display: inline-block;
+    }
+
+    /* Large devices (1024px or larger)/ hamburg menu icon toggle */
+
+    .navtoggle li:not(:last-child) {
+      display: inline-block;
+    }
+
+    .navtoggle li:last-child {
+      display: none;
+    }
+
+    nav > ul {
+      margin: 1em 0;
     }
 
 }
