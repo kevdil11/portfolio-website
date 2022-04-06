@@ -9,3 +9,9 @@ function menuToggle() {
     x.className = 'navtoggle';
   }
 }
+
+
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}

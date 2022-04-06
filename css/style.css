@@ -8,8 +8,6 @@ body {
 }
 
 
-
-
 .white-background{
   background-color: #FFFFFF;
 
@@ -172,6 +170,9 @@ main {
   padding-top: 133px;
 }
 
+main {
+padding-top: 56px;
+}
 
 header {
   background-color: #FFFFFF;
@@ -192,10 +193,11 @@ header {
     right: 0;
     top: 2px;
     font-size: 20px;
-    padding-right:0;
+    padding-right: 0;
   }
 
 }
+
 
 nav > ul {
   list-style-type: none;
@@ -243,14 +245,16 @@ nav > ul > li > a {
 }
 
 
+
+
 /* ==============================
 for hamburg menu icon
 ================================= */
 
-#menuicon {
-   height: 20px;
-   width: 20px;
+.navtoggle, .navtoggle.responsive {
+  position: relative;
 }
+
 
 
 .navtoggle li:not(:last-child) {
@@ -258,11 +262,19 @@ for hamburg menu icon
 }
 
 
+.navtoggle.responsive li  {
+  display: block;
+}
+
 
 /* ==============================
 Medium devices (641px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+
+  .logo {
+    max-width: 250px;
+  }
 
   header {
     text-align: unset;
@@ -351,6 +363,11 @@ Medium devices (641px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
+  .logo {
+    max-width: 250px;
+  }
+
 
   header {
     text-align: unset;
