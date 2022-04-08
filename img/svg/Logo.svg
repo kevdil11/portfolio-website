@@ -1,9 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="50" viewBox="0 0 150 50">
-  <g id="Logo" transform="translate(10220 951)">
-    <g id="Rectangle_75" data-name="Rectangle 75" transform="translate(-10220 -951)" fill="#fff" stroke="#2f8189" stroke-width="3">
-      <rect width="150" height="50" stroke="none"/>
-      <rect x="1.5" y="1.5" width="147" height="47" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="50" viewBox="0 0 47 50">
+  <g id="Group_66" data-name="Group 66" transform="translate(-334)">
+    <rect id="Rectangle_117" data-name="Rectangle 117" width="46" height="3" transform="translate(334)" fill="#2f8189"/>
+    <rect id="Rectangle_116" data-name="Rectangle 116" width="46" height="3" transform="translate(334 47)" fill="#2f8189"/>
+    <g id="Group_65" data-name="Group 65" transform="translate(-86)">
+      <path id="Subtraction_16" data-name="Subtraction 16" d="M-4978.422,1127.21h-2.324l-4.9-7H-4979c6.065,0,11-4.263,11-9.5s-4.935-9.5-11-9.5h-6.612l4.9-7h2.289v.009a18.731,18.731,0,0,1,12.148,4.824A15.726,15.726,0,0,1-4961,1110.71a15.731,15.731,0,0,1-5.273,11.668,18.718,18.718,0,0,1-12.148,4.824v.008Z" transform="translate(5428 -1089.21)" fill="#2f8189"/>
+      <rect id="Rectangle_147" data-name="Rectangle 147" width="7" height="33" transform="translate(420 5)" fill="#91f3fc"/>
+      <path id="Subtraction_12" data-name="Subtraction 12" d="M-4977.434,1114.025h-8.514l-5.914-8.446,4.272-6.1,10.177,14.534-.022.015Z" transform="translate(5422.074 -1076.026)" fill="#91f3fc"/>
+      <path id="Subtraction_13" data-name="Subtraction 13" d="M-4996,1117.2V1105l7-10h8.546L-4996,1117.2Z" transform="translate(5425 -1090)" fill="#91f3fc"/>
     </g>
-    <text id="Kev_Dil_Logo" data-name="Kev Dil Logo" transform="translate(-10200 -918)" fill="#2f8189" font-size="20" font-family="Asap-Bold, Asap" font-weight="700"><tspan x="0" y="0">Kev Dil Logo</tspan></text>
+    <text id="UI_DESIGN" data-name="UI  DESIGN" transform="translate(334 45)" fill="#2f8189" font-size="7" font-family="Asap-Bold, Asap" font-weight="700" letter-spacing="0.19em"><tspan x="0" y="0" xml:space="preserve">UI  DESIGN</tspan></text>
   </g>
 </svg>

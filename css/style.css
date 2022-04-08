@@ -163,6 +163,7 @@ Layout Styling
 
 .logo {
   max-width: 150px;
+  max-height: 50px;
 }
 
 
@@ -273,7 +274,8 @@ Medium devices (641px and larger)
 @media only screen and (min-width: 640px) {
 
   .logo {
-    max-width: 250px;
+    max-width: 150px;
+    max-height: 100px;
   }
 
   header {
@@ -365,7 +367,8 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
 
   .logo {
-    max-width: 250px;
+    max-width: 150px;
+    max-height: 100px;
   }
 
 
