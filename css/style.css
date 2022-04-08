@@ -183,7 +183,7 @@ header {
   box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.4);
   position: fixed;
   width: 100%;
-
+}
   .navtoggle, .navtoggle.responsive {  /*lesson is confusing for this part. does this code go here?*/
     position: relative;
   }
@@ -196,7 +196,7 @@ header {
     padding-right: 0;
   }
 
-}
+
 
 
 nav > ul {
