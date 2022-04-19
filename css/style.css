@@ -1,18 +1,18 @@
 body {
   background-color: #E9FDFF;
   font-family: 'Asap', sans-serif;
-  font-size: 16px; /* sets the font size to 40px */
-  font-weight: 400; /* sets the font weight to 400 regular */
-  line-height: 1.6; /* sets the line height to 1.6 *the font size */
-  color: #2F8189;
+  font-size: 16px;
+  /* sets the font size to 40px */
+  font-weight: 400;
+  /* sets the font weight to 400 regular */
+  line-height: 1.6;
+  /* sets the line height to 1.6 *the font size */
+  color: #2E7D85;
 }
 
-
-.white-background{
+.white-background {
   background-color: #FFFFFF;
-
 }
-
 
 h1, h2, h3, h4 {
   line-height: 1.4
@@ -21,9 +21,9 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 35px;
   font-weight: 700;
-  border-bottom: 0px solid #91F3FC; /* change px value to see underline*/
+  border-bottom: 0px solid #91F3FC;
+  /* change px value to see underline*/
   display: inline-block;
-
 }
 
 h2 {
@@ -49,41 +49,40 @@ img {
 
 a {
   color: #ff7f50;
-  text-decoration: none; /* no underlining*/
+  text-decoration: none;
+  /* no underlining*/
 }
 
-a:visited { /* visited link*/
-color: #ff7f50
+a:visited {
+  /* visited link*/
+  color: #ff7f50
 }
 
 a:hover {
   color: #cc6540;
-  text-decoration: underline; /* underlining when hovering over a link */
+  text-decoration: underline;
+  /* underlining when hovering over a link */
 }
 
-a:active { /* selected link*/
-color: #994c30;
+a:active {
+  /* selected link*/
+  color: #994c30;
 }
-
-
 
 .logotextbig {
   font-size: 20px;
   font-weight: 700;
 }
 
-.logotextsmall
-{
+.logotextsmall {
   font-size: 15px;
   font-weight: 500;
 }
 
-
-
 .button, .button:visited {
   display: inline-block;
   background-color: #91F3FC;
-  color: #2F8189;
+  color: #2E7D85;
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
@@ -96,10 +95,9 @@ color: #994c30;
   text-decoration: none;
 }
 
-
 .button.contact {
   background-color: #91F3FC;
-  color: #2F8189;
+  color: #2E7D85;
   border: 2px solid #91F3FC;
   width: 100px;
 }
@@ -109,12 +107,11 @@ color: #994c30;
   text-decoration: none;
 }
 
-
 /*might not be needed, button functions are used in other tags*/
 .button {
   display: inline-block;
   background-color: #91F3FC;
-  color: #2F8189;
+  color: #2E7D85;
   font-weight: 500;
   padding: 10px;
   border-radius: 3px;
@@ -127,15 +124,9 @@ color: #994c30;
   opacity: 0.8;
 }
 
-
-
-
 /* ==============================
 Layout Styling
 ================================= */
-
-
-
 * {
   box-sizing: border-box;
 }
@@ -151,14 +142,13 @@ Layout Styling
   margin: 0 auto;
 }
 
-
 .row {
   margin: 25px 0px;
-
 }
 
 .center {
-  text-align: center; /* to center, use class="center" */
+  text-align: center;
+  /* to center, use class="center" */
 }
 
 .logo {
@@ -166,48 +156,46 @@ Layout Styling
   max-height: 50px;
 }
 
-
 main {
   padding-top: 133px;
 }
 
 main {
-padding-top: 56px;
+  padding-top: 56px;
 }
 
 header {
   background-color: #FFFFFF;
-/*  text-align: center; */   /*remove 'comment indicators' if this is needed again*/
+  /*  text-align: center; */
+  /*remove 'comment indicators' if this is needed again*/
   padding: 10px 0;
   -webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.4);
-  -moz-box-shadow:    0px 4px 5px 0px rgba(50, 50, 50, 0.4);
-  box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.4);
+  box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.4);
   position: fixed;
   width: 100%;
 }
-  .navtoggle, .navtoggle.responsive {  /*lesson is confusing for this part. does this code go here?*/
-    position: relative;
-  }
 
-  .navtoggle li .icon {
-    position: absolute;
-    right: 0;
-    top: 2px;
-    font-size: 20px;
-    padding-right: 0;
-  }
+.navtoggle, .navtoggle.responsive {
+  /*lesson is confusing for this part. does this code go here?*/
+  position: relative;
+}
 
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
 
-
-
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -215,7 +203,7 @@ nav > ul > li > a {
 }
 
 #hero {
-  padding: 20px 0;
+  padding: 10px 0;
   display: inline-block;
   width: 100%;
 }
@@ -228,54 +216,46 @@ nav > ul > li > a {
 }
 
 #socialmediaicon a {
-   width: 33.33%;
-   text-align: center;
+  width: 32%;
+  text-align: center;
+  margin: 5px
 }
 
-#socialmediaicon a  span {
-   display: none;
+#socialmediaicon a span {
+  display: none;
 }
 
-#socialmediaicon a  svg {
-   height: 30px;
-   width: 30px;
+#socialmediaicon a svg {
+  height: 30px;
+  width: 30px;
 }
 
 #svg {
   width: 100%;
 }
 
-
-
-
 /* ==============================
 for hamburg menu icon
 ================================= */
-
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
-
-
 
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
-
 
 /* ==============================
 Medium devices (641px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-
   .logo {
     max-width: 150px;
-    max-height: 100px;
+    max-height: 60px;
   }
 
   header {
@@ -289,88 +269,80 @@ Medium devices (641px and larger)
     margin-top: 4px;
   }
 
-
   main {
-    padding-top: 150px; /*adjust heading after fixing header*/
+    padding-top: 150px;
+    /*adjust heading after fixing header*/
   }
 
   body {
     font-size: 16px;
+  }
 
-    }
+  .col-md-6 {
+    width: 50%;
+  }
 
-    .col-md-6 {
-      width: 50%;
-    }
+  [class*="col-"] {
+    float: left;
+    padding: 0 10px;
+  }
 
-    [class*="col-"] {
-      float: left;
-      padding: 0 10px;
-    }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
+  .container {
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-    .container {
-      padding: 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .container {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+  .row {
+    margin: 25px -20px;
+  }
 
-    .row {
-      margin: 25px -20px;
+  #socialmedicon a span {
+    display: initial;
+  }
 
-    }
-    #socialmedicon a  span {
-       display: initial;
-    }
+  #socialmedicon a svg {
+    display: none;
+  }
 
-    #socialmedicon a  svg {
-       display: none;
-    }
+  nav>ul>li {
+    display: inline-block;
+  }
 
-    nav > ul > li {
-      display: inline-block;
-    }
+  /* Large devices (641px and larger)/ hamburg menu icon toggle */
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
 
-    /* Large devices (641px and larger)/ hamburg menu icon toggle */
+  .navtoggle li:last-child {
+    display: none;
+  }
 
-    .navtoggle li:not(:last-child) {
-      display: inline-block;
-    }
-
-    .navtoggle li:last-child {
-      display: none;
-    }
-
-    nav > ul {
-      margin: 1em 0;
-    }
-
+  nav>ul {
+    margin: 1em 0;
+  }
 }
-
-
-
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
   .logo {
     max-width: 150px;
-    max-height: 100px;
+    max-height: 60px;
   }
-
 
   header {
     text-align: unset;
@@ -383,85 +355,67 @@ Large devices (1024px or larger)
     margin-top: 4px;
   }
 
-
   main {
-    padding-top: 150px; /*adjust heading after fixing header*/
+    padding-top: 130px;
+    /*adjust heading after fixing header*/
   }
 
   body {
     font-size: 16px;
+  }
 
-    }
+  .col-md-7 {
+    width: 60%;
+  }
 
-    .col-md-7 {
-      width: 60%;
-    }
+  .col-md-5 {
+    width: 40%;
+  }
 
-    .col-md-5 {
-      width: 40%;
-    }
+  [class*="col-"] {
+    float: left;
+    padding: 0 20px;
+  }
 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-    [class*="col-"] {
-      float: left;
-      padding: 0 20px;
-    }
+  nav>ul>li {
+    display: inline-block;
+  }
 
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
+  /* Large devices (1024px or larger)/ hamburg menu icon toggle */
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
 
-    nav > ul > li {
-      display: inline-block;
-    }
+  .navtoggle li:last-child {
+    display: none;
+  }
 
-    /* Large devices (1024px or larger)/ hamburg menu icon toggle */
-
-    .navtoggle li:not(:last-child) {
-      display: inline-block;
-    }
-
-    .navtoggle li:last-child {
-      display: none;
-    }
-
-    nav > ul {
-      margin: 1em 0;
-    }
-
+  nav>ul {
+    margin: 1em 0;
+  }
 }
-
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
-
-
-
-
-
-
-
+@media only screen and (min-width: 1440px)
 
 /* ==============================
 animations
 ================================= */
-
-
-
 .mountains {
   width: 100%;
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-
-
-.sun{
+.sun {
   animation-duration: 4s;
   animation-name: color-change;
   animation-iteration-count: infinite;
@@ -469,41 +423,43 @@ height: auto;
   animation-timing-function: linear;
 }
 
-
-.cloud{
+.cloud {
   animation: 30s cloud-move infinite alternate linear;
 }
 
-
-.car{
+.car {
   animation: 30s car-move infinite alternate linear;
 }
 
-
-  @keyframes color-change {
-    from {fill: #FF6584;}
-    to {fill: #F9F345;}
+@keyframes color-change {
+  from {
+    fill: #FF6584;
   }
 
+  to {
+    fill: #F9F345;
+  }
+}
 
-
-  @keyframes cloud-move {
-    from {transform: translate(-156.824px,-204.184px);}
-    to {transform: translate(-200px,-204.184px);}
+@keyframes cloud-move {
+  from {
+    transform: translate(-156.824px, -204.184px);
   }
 
+  to {
+    transform: translate(-200px, -204.184px);
+  }
+}
 
-
-  @keyframes car-move {
-    from {transform: translate(-156.824px,-115px);}
-    to {transform: translate(-650px,-115px);}
+@keyframes car-move {
+  from {
+    transform: translate(-156.824px, -115px);
   }
 
-
-
-
-
-
+  to {
+    transform: translate(-650px, -115px);
+  }
+}
 
 /*
 Colors used:
@@ -511,7 +467,6 @@ Primary color (Light Blue): #E9FDFF
 Secondary Color (Darkr Blue): #91F3FC
 Tirtiary/Text Color: (Emerald Green) #2F8189
 */
-
 /*
 Fonts used:
 400: regular
